@@ -346,9 +346,12 @@ footer p {
 
 /* CONSULTAS 2 */
 .informacoes-2 {
+    width: 100%;
+    padding: 15px;
     background-color: #fff;
-    padding: 30px;
     border-radius: 10px;
+    box-sizing: border-box;
+    font-family: "Varela Round", sans-serif;
 }
 
 .campo-2 h4 {
@@ -377,6 +380,16 @@ footer p {
     border: 2px solid #6b4b8c;
     border-radius: 10px;
     margin-top: 1.5rem;
+}
+
+.campo-2 input {
+    width: 100%; 
+    padding: 10px; 
+    margin-top: 5px; 
+    border: 1px solid #71568C;
+    border-radius: 5px;
+    font-size: 1em; 
+    box-sizing: border-box; 
 }
 
 /* RECURSOS */
@@ -491,7 +504,7 @@ textarea {
     border-radius: 8px;
     resize: none;
     font-size: 1em;
-    font-family: Arial, sans-serif;
+    font-family: "Varela Round", sans-serif;
     margin-bottom: 15px;
 }
 
@@ -520,3 +533,28 @@ textarea:focus {
     float: left;
     margin-right: 20px;
 }
+
+/* HOMEPAGE NÃO LOGADO */
+.menu-botoes {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.botao-login, .botao-cadastro {
+    background-color: #EBE4F2;
+    color: black;
+    border: solid #71568C;
+    padding: 10px 15px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: "Varela Round", sans-serif;
+}
+
+.botao-login:hover, .botao-cadastro:hover {
+    background-color: #3c2a5d;
+    color: white;
+}
+
