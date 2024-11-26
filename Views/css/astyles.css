@@ -259,7 +259,7 @@ footer p {
 /* CONSULTAS */
 .grid-container {
     display: grid;
-    grid-template-columns: 4fr 1fr;
+    grid-template-columns: 2fr 1fr;
     gap: 20px;
     padding: 20px;
 }
@@ -289,6 +289,7 @@ footer p {
     padding: 15px;
     border-radius: 10px;
 }
+
 
 .campo h4 {
     text-align: left; 
@@ -372,7 +373,7 @@ footer p {
 }
 
 .coluna-direita-c .imagem img {
-    max-width: 50%;
+    max-width: 100%;
     border: 2px solid #6b4b8c;
     border-radius: 10px;
     margin-top: 1.5rem;
