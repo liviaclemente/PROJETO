@@ -1,5 +1,6 @@
 /* FONTE */
 @import url('https://fonts.googleapis.com/css2?family=Koulen&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 /* CONFIGS PRINCIPAIS */
 * {
@@ -57,7 +58,7 @@ header {
     font-weight: normal;
     transition: color 0.3s;
     padding: 0.5rem 0.8rem;
-    font-family: "Koulen", serif;
+    font-family: "Bebas Neue", sans-serif;
     font-size: 1.4em
 
 }
@@ -116,13 +117,13 @@ main {
     text-align: center; 
     margin: 0; 
     font-size: 4.0em;
-    font-family: "Koulen", serif;
+    font-family: "Bebas Neue", sans-serif;
 }
 .coluna-esquerda h4 {
     text-align: left; 
     margin: 0;
     font-size: 1.7em;
-    font-family: "Koulen", serif;
+    font-family: "Bebas Neue", sans-serif;
     font-weight: 600;
 }
 
@@ -162,7 +163,7 @@ footer p {
     margin: 0; 
     color: white; 
     font-size: 1.2em;
-    font-family: "Koulen", serif;
+    font-family: "Bebas Neue", sans-serif;
 }
 
 /* CONFIG PÁGINA CONSULTA */
@@ -202,7 +203,7 @@ footer p {
     color: black;
     text-align: center;
     margin-bottom: 10px;
-    font-family: "Koulen", serif;
+    font-family: "Bebas Neue", sans-serif;
     font-size: 4.0em;
 
 }
@@ -279,7 +280,7 @@ footer p {
     text-align: center; 
     margin: 0;
     font-size: 2.0em;
-    font-family: "Koulen", serif;
+    font-family: "Bebas Neue", sans-serif;
     font-weight: 600;
     color: #6b4b8c;;
 }
@@ -425,7 +426,7 @@ footer p {
     text-align: center; 
     margin: 0; 
     font-size: 2.0em;
-    font-family: "Koulen", serif;
+    font-family: "Bebas Neue", sans-serif;
 }
 
 .grid-container2 p {
