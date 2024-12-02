@@ -577,6 +577,7 @@ textarea:focus {
 .contato-esquerda img {
     width: 1000px;
     height: 700px;
+    border: 3px solid #6a4c93; 
 }
 
 .contato-esquerda h1 {
@@ -748,7 +749,7 @@ fieldset {
 }
 .certificate p, .partnership p {
     margin: 0;
-    font-family: "Varela Round", sans-serif;;
+    font-family: "Varela Round", sans-serif;
 }
 .contact-button {
     background-color: #6D4A8B;
@@ -1064,12 +1065,15 @@ legend {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .message-section h2 {
-  font-size: 18px;
+  font-size: 2em;
   margin-bottom: 10px;
+  font-family: "Bebas Neue", sans-serif;
+
 }
 .message-section form {
   display: flex;
   flex-direction: column;
+  font-family: "Varela Round", sans-serif;
 }
 .message-section form input,
 .message-section form textarea {
@@ -1077,6 +1081,7 @@ legend {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
+  font-family: "Varela Round", sans-serif;
 }
 .message-section form button {
   padding: 10px;
@@ -1085,6 +1090,8 @@ legend {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 1.5em;
 }
 .message-section .messages {
   margin-top: 20px;
@@ -1100,6 +1107,7 @@ legend {
   display: flex;
   align-items: center;
   color: #000;
+  font-family: "Varela Round", sans-serif;
 }
 .message-section .message .user img {
   border-radius: 50%;
@@ -1111,12 +1119,15 @@ legend {
 }
 .message-section .message.preto {
   border-left: 5px solid black;
+  font-family: "Varela Round", sans-serif;
 }
 .message-section .message.roxo {
   border-left: 5px solid #9B59B6;
+  font-family: "Varela Round", sans-serif;
 }
 .message-section .message.roxo2 {
   border-left: 5px solid #9B59B6;
+  font-family: "Varela Round", sans-serif;
 }
 @media (max-width: 768px) {
   .container2 {
