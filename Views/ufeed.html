@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feed</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <style>
+      body {
+        font-family: "Roboto", sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f0f0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+        <div class="menu-container">
+             <div class="menu-imagens-esquerda">
+                 <img src="media/logo1.png" alt="Logo 1">
+                 <img src="media/logo2.png" alt="Logo 2">
+             </div> 
+             <nav>
+                 <ul class="menu">
+                     <li><a href="uhomepage.html">HOMEPAGE</a></li>
+                     <li><a href="usobre.html">SOBRE</a></li>
+                     <li><a href="ufeed.html">FEED</a></li>
+                     <li><a href="urecursos.html">RECURSOS</a></li>
+                     <li><a href="udesafios.html">DESAFIOS</a></li>
+                     <li><a href="ucertpar.html">CERTIFICADOS E PARCEIROS</a></li>
+                     <li><a href="uprojetos.html">PROJETOS</a></li>
+                 </ul>
+             </nav>
+             <div class="menu-imagens-direita">
+                 <a href="uhomepage.html">
+                 <img src="media/home.png" alt="Símbolo home">
+                 </a>
+                 <a href="uperfil.html">
+                     <img src="media/user.png" alt="Símbolo user">
+                 </a>
+                 <a href="utermos.html">
+                     <img src="media/documento.png" alt="Símbolo documento">
+                 </a>
+             </div>
+         </div>
+     </header>
+    <div class="feed-header">
+      <h1>FEED</h1>
+    </div>
+    <div class="post-box">
+      <input placeholder="Liberte suas ideias..."/>
+      <button>COMPARTILHE</button>
+    </div>
+    <div class="post">
+      <div class="post-header">
+        <img
+          alt="User profile picture"
+          height="40"
+          src="media/usuarios.png"
+          width="40"
+        />
+        <div class="username">@anaclara</div>
+      </div>
+      <div class="post-content">
+        <p>
+          Usar bicicletas e transporte público seria uma ótima maneira de
+          reduzir a emissão de gases poluentes nas cidades. Os veículos
+          motorizados, com carros e caminhões, são grandes responsáveis pelas
+          emissões de dióxido de carbono (CO2) e ao optarmos por bicicletas e
+          transporte público, podemos diminuir a quantidade de veículos nas
+          ruas, resultando em menos emissões.
+        </p>
+      </div>
+      <div class="post-footer">
+        <div class="actions">
+          <i class="fas fa-heart" onclick="toggleRed(this)"> </i>
+          <i class="fas fa-comment"> </i>
+          <i class="fas fa-share"> </i>
+          <i>
+            <input
+              id="up"
+              type="checkbox"
+              class="fas fa-arrow-up"
+              onclick="toggleGreen(this)"
+            />
+          </i>
+          <i>
+            <input
+              id="down"
+              type="checkbox"
+              class="fas fa-arrow-down"
+              onclick="toggleRed(this)"
+            />
+          </i>
+        </div>
+      </div>
+    </div>
+    <div class="post">
+      <div class="post-header">
+        <img
+          alt="User profile picture"
+          height="40"
+          src="media/usuarios.png"
+          width="40"
+        />
+        <div class="username">@isadoramoreira</div>
+      </div>
+      <div class="post-content">
+        <p>Acredito que projetar e instalar jardins verticais em espaços urbanos pode promover a biodiversidade e melhorar a qualidade do ar.</p>
+        <img
+          alt="Vertical garden"
+          height="200"
+          src="https://storage.googleapis.com/a1aa/image/63hyuvPL0eVTYinM6aRiOMkO8IYnhfukxHxBiZmriEIg7j2TA.jpg"
+          width="300"
+        />
+      </div>
+      <div class="post-footer">
+        <div class="actions">
+          <i class="fas fa-heart" onclick="toggleRed(this)"> </i>
+          </i>
+          <i class="fas fa-comment"> </i>
+          <i class="fas fa-share"> </i>
+          <i>
+            <input
+              id="up"
+              type="checkbox"
+              class="fas fa-arrow-up"
+              onclick="toggleGreen(this)"
+            />
+          </i>
+          <i>
+            <input
+              id="down"
+              type="checkbox"
+              class="fas fa-arrow-down"
+              onclick="toggleRed(this)"
+            />
+          </i>
+        </div>
+      </div>
+    </div>
+    <div class="post">
+      <div class="post-header">
+        <img
+          alt="User profile picture"
+          height="40"
+          src="media/usuarios.png"
+          width="40"
+        />
+        <div class="username">@miguelzacherias</div>
+      </div>
+      <div class="post-content">
+        <p>
+          Estava lendo uma matéria sobre economia circular que recomendo!
+          <a
+            href="https://www.nexojornal.com.br/expresso/2023/07/03/O-que-%C3%A9-economia-circular-e-um-novo-modo-de-se-usar-uma-mesma-mat%C3%A9ria-prima"
+          >
+            https://www.nexojornal.com.br/expresso/2023/07/03/O-que-%C3%A9-economia-circular-e-um-novo-modo-de-se-usar-uma-mesma-mat%C3%A9ria-prima
+          </a>
+        </p>
+      </div>
+      <div class="post-footer">
+        <div class="actions">
+          <i class="fas fa-heart" onclick="toggleRed(this)"> </i>
+          <i class="fas fa-comment"> </i>
+          <i class="fas fa-share"> </i>
+          <i>
+            <input
+              id="up"
+              type="checkbox"
+              class="fas fa-arrow-up"
+              onclick="toggleGreen(this)"
+            />
+          </i>
+          <i>
+            <input
+              id="down"
+              type="checkbox"
+              class="fas fa-arrow-down"
+              onclick="toggleRed(this)"
+            />
+          </i>
+        </div>
+      </div>
+    </div>
+    <script>
+        function toggleRed(element) {
+          let other = document.getElementById("up");
+          if (element.checked) {
+            other.checked = false; // Desmarca o checkbox "up"
+            other.classList.remove("green"); // Remove classe "green"
+          }
+          element.classList.toggle("red", element.checked); // Aplica classe "red" somente se marcado
+        }
+      
+        function toggleGreen(element) {
+          let other = document.getElementById("down");
+          if (element.checked) {
+            other.checked = false; // Desmarca o checkbox "down"
+            other.classList.remove("red"); // Remove classe "red"
+          }
+          element.classList.toggle("green", element.checked); // Aplica classe "green" somente se marcado
+        }
+      </script>
+      
+    <footer>
+      <p>© Todos os direitos reservados - Triple Core</p>
+    </footer>
+  </body>
+</html>

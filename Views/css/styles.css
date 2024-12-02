@@ -724,6 +724,14 @@ fieldset {
     margin-bottom: 20px;
     padding: 20px;
 }
+fieldset h1 {
+    font-family: "Bebas Neue", sans-serif;
+}
+
+fieldset p {
+    font-family: "Varela Round", sans-serif;
+}
+
 .certificate, .partnership {
     display: flex;
     margin-bottom: 20px;
@@ -777,7 +785,9 @@ fieldset {
     margin: 20px 0;
   }
   .post-box {
-    background-color: #e6e6fa;
+    background-color: #EBE4F2;
+    color: black;
+    border:2px solid #71568C;
     padding: 20px;
     margin: 0 20px 20px 20px;
     border-radius: 10px;
@@ -790,6 +800,7 @@ fieldset {
     background: none;
     width: 100%;
     font-size: 16px;
+    color: white;
   }
   .post-box button {
     background-color: #000;
@@ -874,11 +885,12 @@ fieldset {
     background: transparent; /* Fundo semitransparente ao marcar */
   }
 
-  .main-content {
+.main-content {
     flex: 2;
     padding: 20px;
     background-color: #F5F5F5;
 }
+
 .main-content h1 {
     font-size: 36px;
     margin-bottom: 10px;
@@ -896,6 +908,12 @@ fieldset {
     height: 100px;
     margin-right: 20px;
 }
+
+legend {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 2em;
+}
+
 .project p {
     flex: 1;
 }
@@ -940,11 +958,7 @@ fieldset {
     display: inline-block;
     margin-top: 20px;
 }
-fieldset {
-    border: 1px solid #ccc;
-    padding: 10px;
-    margin-bottom: 20px;
-}
+
 legend {
     font-weight: bold;
     padding: 0 10px;
@@ -958,105 +972,6 @@ legend {
         text-align: center;
         margin-top: 10px;
     }
-}
-.desafios,
-.selos,
-.ranking {
-  background-color: white;
-  padding: 20px;
-  margin: 10px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-.desafios {
-  flex: 2;
-}
-.selos {
-  flex: 1;
-}
-.ranking {
-  flex: 1;
-  background-color: #000;
-  color: white;
-}
-.desafios h2,
-.selos h2,
-.ranking h2 {
-  font-size: 2em;
-  margin-bottom: 20px;
-}
-.desafios .item,
-.selos .item,
-.ranking .item {
-  margin-bottom: 20px;
-}
-.desafios .item i,
-.selos .item img,
-.ranking .item i {
-  margin-right: 10px;
-}
-.desafios .item p,
-.selos .item p,
-.ranking .item p {
-  margin: 5px 0;
-}
-.ranking .item {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.ranking .item span {
-  display: flex;
-  align-items: center;
-}
-.ranking .item span i {
-  margin-right: 10px;
-}
-.ranking .item span img {
-  height: 30px;
-  margin-right: 10px;
-}
-.ranking .reset {
-  text-align: right;
-  margin-top: 20px;
-}
-.ranking .reset button {
-  background-color: white;
-  color: black;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-}
-.ranking .new-challenge {
-  background-color: #f0f0f0;
-  padding: 20px;
-  border-radius: 10px;
-  margin-top: 20px;
-}
-.ranking .new-challenge input,
-.ranking .new-challenge button {
-  width: 100%;
-  padding: 10px;
-  margin: 10px 0;
-  border: none;
-  border-radius: 5px;
-}
-.ranking .new-challenge button {
-  background-color: #6a4c93;
-  color: white;
-  cursor: pointer;
-}
-@media (max-width: 768px) {
-  .container {
-    flex-direction: column;
-  }
-  .desafios,
-  .selos,
-  .ranking {
-    flex: 1;
-    margin: 10px 0;
-  }
 }
 .message-section {
   width: 35%;
@@ -1137,4 +1052,86 @@ legend {
       width: 100%;
       margin-bottom: 20px;
   }
+}
+
+.main-content {
+    flex: 2;
+    padding: 20px;
+    background-color: #F5F5F5;
+}
+.main-content h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.main-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.project {
+    display: flex;
+    margin-bottom: 20px;
+}
+.project img {
+    width: 150px;
+    height: 100px;
+    margin-right: 20px;
+}
+.project p {
+    flex: 1;
+}
+.sidebar {
+    flex: 1;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+.sidebar h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.mentor {
+    display: flex;
+    margin-bottom: 20px;
+}
+.mentor img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.mentor div {
+    flex: 1;
+}
+.mentor h3 {
+    font-size: 18px;
+    margin: 0;
+}
+.mentor p {
+    font-size: 14px;
+    margin: 5px 0 0;
+}
+.contact-button {
+    background-color: #6A4B93;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+legend {
+    font-weight: bold;
+    padding: 0 10px;
+}
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    .header .icons {
+        float: none;
+        text-align: center;
+        margin-top: 10px;
+    }
 }
