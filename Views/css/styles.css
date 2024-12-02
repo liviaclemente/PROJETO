@@ -1135,3 +1135,144 @@ legend {
         margin-top: 10px;
     }
 }
+
+input[type="checkbox"] {
+    appearance: none; /* Remove o estilo padrão */
+    -webkit-appearance: none; /* Para navegadores baseados em WebKit */
+    width: 20px;
+    height: 20px;
+    border: 2px solid #555; /* Cor da borda */
+    border-radius: 50%; /* Torna a checkbox redonda */
+    outline: none; /* Remove o contorno ao focar */
+    background-color: #fff; /* Cor do fundo inicial */
+    cursor: pointer; /* Cursor de mão para indicar clicável */
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+  }
+  
+  /* Estilo ao marcar a checkbox */
+  input[type="checkbox"]:checked {
+    background-color: #4caf50; /* Cor ao ser marcada */
+    border-color: #4caf50; /* Altera a cor da borda */
+    position: relative;
+  }
+  
+  input[type="checkbox"]:checked::after {
+    content: "\2713"; /* Símbolo de check */
+    color: #fff;
+    font-size: 14px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+.desafios,
+  .selos,
+  .ranking {
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .desafios {
+    flex: 2;
+  }
+  .selos {
+    flex: 1;
+  }
+  .ranking {
+    flex: 1;
+    background-color: #000;
+    color: white;
+  }
+  .desafios h2,
+  .selos h2,
+  .ranking h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-family: "Bebas Neue", sans-serif;
+  }
+  .desafios .item,
+  .selos .item,
+  .ranking .item {
+    margin-bottom: 20px;
+  }
+  .desafios .item i,
+  .selos .item img,
+  .ranking .item i {
+    margin-right: 10px;
+  }
+  .desafios .item p,
+  .selos .item p,
+  .ranking .item p {
+    margin: 5px 0;
+    font-family: "Varela Round", sans-serif;
+  }
+  .ranking .item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .ranking .item span {
+    display: flex;
+    align-items: center;
+  }
+  .ranking .item span i {
+    margin-right: 10px;
+  }
+  .ranking .item span img {
+    height: 30px;
+    margin-right: 10px;
+  }
+
+  .item-2 img{
+    width: 150px;
+    height: 150px;
+  }
+  .ranking .reset {
+    text-align: right;
+    margin-top: 20px;
+  }
+  .ranking .reset button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Varela Round", sans-serif;
+  }
+  .ranking .new-challenge {
+    background-color: #f0f0f0;
+    color: #000;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-family: "Varela Round", sans-serif;
+  }
+  .ranking .new-challenge input,
+  .ranking .new-challenge button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+  }
+  .ranking .new-challenge button {
+    background-color: #6a4c93;
+    color: white;
+    cursor: pointer;
+    font-family: "Varela Round", sans-serif;
+  }
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+    .desafios,
+    .selos,
+    .ranking {
+      flex: 1;
+      margin: 10px 0;
+    }
+  }
