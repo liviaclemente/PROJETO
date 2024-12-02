@@ -869,8 +869,8 @@ fieldset p {
   .green {
     color: green;
   }
-  /* Esconde a aparência padrão da checkbox */
-  input[type="checkbox"] {
+/* Esconde a aparência padrão da checkbox */
+input[type="checkbox"]#up {
     appearance: none; /* Para navegadores modernos */
     -webkit-appearance: none; /* Para compatibilidade com WebKit */
     -moz-appearance: none; /* Para Firefox */
@@ -879,9 +879,25 @@ fieldset p {
     height: 20px;
     background: transparent; /* Torna o fundo transparente */
   }
-
+  
   /* Estilo para quando a checkbox estiver marcada */
-  input[type="checkbox"]:checked {
+  input[type="checkbox"]#up:checked {
+    background: transparent; /* Fundo semitransparente ao marcar */
+  }
+  
+/* Esconde a aparência padrão da checkbox */
+input[type="checkbox"]#down {
+    appearance: none; /* Para navegadores modernos */
+    -webkit-appearance: none; /* Para compatibilidade com WebKit */
+    -moz-appearance: none; /* Para Firefox */
+    border: 2px solid transparent; /* Adiciona uma borda (opcional) */
+    width: 20px;
+    height: 20px;
+    background: transparent; /* Torna o fundo transparente */
+  }
+  
+  /* Estilo para quando a checkbox estiver marcada */
+  input[type="checkbox"]#down:checked {
     background: transparent; /* Fundo semitransparente ao marcar */
   }
 
@@ -1165,6 +1181,7 @@ input[type="checkbox"] {
     left: 50%;
     transform: translate(-50%, -50%);
   }
+
   
 .desafios,
   .selos,
