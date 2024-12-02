@@ -1,8 +1,14 @@
-/* FONTE */
+/* =======================
+   FONTES
+   ======================= */
 @import url('https://fonts.googleapis.com/css2?family=Koulen&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Varela+Round&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-/* CONFIGS PRINCIPAIS */
+/* =======================
+   CONFIGURAÇÕES PRINCIPAIS DAS PÁGINAS
+   - USUÁRIO
+   - ADMINISTRADOR
+   ======================= */
 * {
     margin: 0;
     padding: 0;
@@ -68,6 +74,13 @@ header {
 }
 
 
+/* =======================
+   DIVISÃO DAS PÁGINAS
+   - HOMEPAGE
+   - SOBRE 
+   - CONSULTAS
+   - PERFIL
+   ======================= */
 
 main {
     display: flex;
@@ -166,7 +179,9 @@ footer p {
     font-family: "Bebas Neue", sans-serif;
 }
 
-/* CONFIG PÁGINA CONSULTA */
+/* =======================
+   PÁGINA CONSULTA
+   ======================= */
 
 .containerConsultas {
     display: grid;
@@ -342,10 +357,12 @@ footer p {
 }
 
 .botao:hover {
-    background-color: #333; /* Cor mais clara no hover */
+    background-color: #333; 
 }
 
-/* CONSULTAS 2 */
+/* =======================
+   SEGUNDA PÁGINA DE CONSULTAS
+   ======================= */
 .informacoes-2 {
     width: 100%;
     padding: 15px;
@@ -393,7 +410,9 @@ footer p {
     box-sizing: border-box; 
 }
 
-/* RECURSOS */
+/* =======================
+   PÁGINA DE RECURSOS
+   ======================= */
 .grid-container2 {
     display: grid;
     grid-template-columns: repeat(4, 1fr); 
@@ -535,7 +554,9 @@ textarea:focus {
     margin-right: 20px;
 }
 
-/* HOMEPAGE NÃO LOGADO */
+/* =======================
+    HOMEPAGE NÃO LOGADO
+   ======================= */
 .menu-botoes {
     display: flex;
     gap: 10px;
@@ -559,7 +580,9 @@ textarea:focus {
     color: white;
 }
 
-/* FALE CONOSCO */
+/* =======================
+   PÁGINA FALE CONOSCO
+   ======================= */
 .contato-container {
     display: flex;
     justify-content: space-between;
@@ -642,7 +665,6 @@ textarea:focus {
     text-decoration: underline;
 }
 
-
 .local {
     margin-top: 20px;
     border: 2px solid #3c2a5d; 
@@ -693,6 +715,15 @@ textarea {
     color: white;
 }
 
+/* =======================
+   CONFIGURAÇÕES PARA AS PÁGINAS
+   - DESAFIOS
+   - FEED
+   - PROJETOS
+   - CERTIFICADOS E PARCERIAS
+   - CONTATO AO USUÁRIO
+   ======================= */
+
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -731,6 +762,10 @@ fieldset h1 {
 fieldset p {
     font-family: "Varela Round", sans-serif;
 }
+
+/* =======================
+   CERTIFICADOS E PARCEIROS
+   ======================= */
 
 .certificate, .partnership {
     display: flex;
@@ -778,6 +813,9 @@ fieldset p {
     }
 }
 
+/* =======================
+            FEED
+   ======================= */
 .feed-header {
     text-align: center;
     padding: 20px;
@@ -869,6 +907,10 @@ fieldset p {
   .green {
     color: green;
   }
+
+  /* =======================
+   INPUT E JAVA SCRIPT (AJUDA DE UM AMIGO)
+   ======================= */
 /* Esconde a aparência padrão da checkbox */
 input[type="checkbox"]#up {
     appearance: none; /* Para navegadores modernos */
@@ -901,6 +943,9 @@ input[type="checkbox"]#down {
     background: transparent; /* Fundo semitransparente ao marcar */
   }
 
+  /* =======================
+            PROJETOS
+   ======================= */
 .main-content {
     flex: 2;
     padding: 20px;
@@ -989,6 +1034,10 @@ legend {
         margin-top: 10px;
     }
 }
+
+/* =======================
+   CONTATO AO USUÁRIO
+   ======================= */
 .message-section {
   width: 35%;
   background-color: white;
@@ -1070,88 +1119,9 @@ legend {
   }
 }
 
-.main-content {
-    flex: 2;
-    padding: 20px;
-    background-color: #F5F5F5;
-}
-.main-content h1 {
-    font-size: 36px;
-    margin-bottom: 10px;
-}
-.main-content p {
-    font-size: 18px;
-    margin-bottom: 20px;
-}
-.project {
-    display: flex;
-    margin-bottom: 20px;
-}
-.project img {
-    width: 150px;
-    height: 100px;
-    margin-right: 20px;
-}
-.project p {
-    flex: 1;
-}
-.sidebar {
-    flex: 1;
-    background-color: #333;
-    color: white;
-    padding: 20px;
-}
-.sidebar h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
-}
-.mentor {
-    display: flex;
-    margin-bottom: 20px;
-}
-.mentor img {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    margin-right: 10px;
-}
-.mentor div {
-    flex: 1;
-}
-.mentor h3 {
-    font-size: 18px;
-    margin: 0;
-}
-.mentor p {
-    font-size: 14px;
-    margin: 5px 0 0;
-}
-.contact-button {
-    background-color: #6A4B93;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    border-radius: 5px;
-    text-decoration: none;
-    display: inline-block;
-    margin-top: 20px;
-}
-
-legend {
-    font-weight: bold;
-    padding: 0 10px;
-}
-@media (max-width: 768px) {
-    .container {
-        flex-direction: column;
-    }
-    .header .icons {
-        float: none;
-        text-align: center;
-        margin-top: 10px;
-    }
-}
-
+/* =======================
+            DESAFIOS
+   ======================= */
 input[type="checkbox"] {
     appearance: none; /* Remove o estilo padrão */
     -webkit-appearance: none; /* Para navegadores baseados em WebKit */
@@ -1182,7 +1152,6 @@ input[type="checkbox"] {
     transform: translate(-50%, -50%);
   }
 
-  
 .desafios,
   .selos,
   .ranking {
