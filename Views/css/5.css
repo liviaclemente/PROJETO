@@ -158,3 +158,23 @@ body {
 .form-box{
   width: 400px;
 }
+
+.instructions2 a {
+  color: black; /* Substitua 'red' pela cor desejada */
+  text-decoration: none; /* Remove o sublinhado do link (opcional) */
+}
+
+.instructions2 a:hover {
+  color: #71568C;; /* Cor ao passar o mouse sobre o link */
+  text-decoration: underline; /* Adiciona sublinhado ao hover (opcional) */
+}
+
+.instructions a {
+  color: black; 
+  text-decoration: none; /* Remove o sublinhado do link (opcional) */
+}
+
+.instructions a:hover {
+  color: #71568C;
+  text-decoration: underline; /* Adiciona sublinhado ao hover (opcional) */
+}
