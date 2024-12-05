@@ -65,9 +65,10 @@ body {
 }
 
 .texto-abaixo {
-  font-size: 20px; /* Tamanho da fonte */
-  color: #ffffff; /* Cor do texto */
-  margin-top: -220px; /* Sobe apenas o texto abaixo da imagem */
+  font-size: 14px; /* Mesmo tamanho do "esqueceu a senha" */
+  color: #ffffff; /* Cor branca para contraste com o fundo preto */
+  font-family: "Varela Round", sans-serif; /* Mesma fonte */
+  margin-top: -210px; /* Espaço colado na imagem */
   text-align: center; /* Centraliza o texto horizontalmente */
 }
 
