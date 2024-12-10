@@ -1,5 +1,7 @@
 # PROJETO
 Economia Circular - Triple Core
+<img src="Views/media/logo1.png" alt="Screenshot" width="300">
+
 
 # DESENVOLVEDORES
 - Emanuelle Souza de Lima
