@@ -7,6 +7,7 @@ Economia Circular - Triple Core
 - Emanuelle Souza de Lima
 - Lívia Clemente
 - Victor Hugo Moreira Ribeiro
+- Marcela Sanches Miossi
 
 # DESCRIÇÃO
 A economia circular busca soluções sustentáveis, valoriza o design durável e reparável, incentivando a criação de produtos que possam ser facilmente restaurados ou atualizados, em vez de serem descartados prematuramente. 
